@@ -134,8 +134,8 @@ L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {attribution: '<a href="
 var polyline = L.polyline(latlngs, {color: '#073763'}).addTo(map);
 map.fitBounds(polyline.getBounds());
 
-var scoopIcon = L.icon({
-    iconUrl: 'scoop_favicon.png',
+var Icon = L.icon({
+    iconUrl: 'favicon.png',
     
 
     iconSize:     [20, 20], // size of the icon   
@@ -143,7 +143,7 @@ var scoopIcon = L.icon({
     popupAnchor:  [0, 0] // point from which the popup should open relative to the iconAnchor
 });
 
-L.marker([-25.940619, 28.144731], {icon: scoopIcon}).addTo(map);
+L.marker([-25.940619, 28.144731], {icon: Icon}).addTo(map);
 
 
 $(document).ready(function() {
@@ -159,7 +159,7 @@ var table = document.getElementById("dtBasic");
 var tableLastLat = table.rows[table.rows.length+1-table.rows.length].children[0].innerHTML;
 var tableLastLon = table.rows[table.rows.length+1-table.rows.length].children[1].innerHTML;
 
-var scoopTruck = L.icon({
+var Truck = L.icon({
     iconUrl: 'truck.png',
     
 
@@ -167,11 +167,11 @@ var scoopTruck = L.icon({
     iconAnchor:   [20, 20], // point of the icon which will correspond to marker's location
     popupAnchor:  [0, 0] // point from which the popup should open relative to the iconAnchor
 });
-L.marker([tableLastLat, tableLastLon], {icon: scoopTruck}).addTo(map);
+L.marker([tableLastLat, tableLastLon], {icon: Truck}).addTo(map);
 
 }
 
-var track = new L.KML("ScoopJHB.kml");
+var track = new L.KML("boundary.kml");
 		track.on("loaded", function(e) {
 			map.fitBounds(e.target.getBounds());
 		});

@@ -14,7 +14,7 @@
 
 
 <div style="width:100%">
-<img src="images/scoop-logo.png" style="margin:20px;" width="283" height="80" alt=""/>
+<img src="images/logo.png" style="margin:20px;" width="283" height="80" alt=""/>
 <div style="float:right;margin-top:50px;margin-right:5px;">
 <button onclick="window.location.href='/jhb.php';">JHB</button>
     <button onclick="window.location.href='/cpt.php';">CPT</button>
