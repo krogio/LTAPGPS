@@ -64,6 +64,12 @@ if (preg_match($regex,$data->lat) && preg_match($regex,$data->lon) )
 
     <!-- jQuery library -->
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    
+    <!--Favicon-->
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <!-- No Bots-->
+    <meta name="robots" content="noindex, nofollow">
   </head>
   
   <body>
