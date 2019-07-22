@@ -156,3 +156,4 @@ Ctrl+X to exit nano editor
 
 1. Replace the image in images
 2. Upload files to you /var/gps.domain.co.za/html directory
+3. Remove DB values by deleting them on a local copy of the db file. We used DB Browser for SQL Lite
