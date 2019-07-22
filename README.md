@@ -7,6 +7,7 @@ https://wiki.mikrotik.com/wiki/Manual:GPS-tracking
 -------------------------------------------------------------------------------
 WEB SERVER REQUIREMENTS
 The following walkthrough is based on the below requirements and we advise sticking to the exact package versions listed.
+
 -------------------------------------------------------------------------------
 * Webhost and server of your choice - We chose Digital Ocean
 We selected the 1GB Memory / 25 GB Disk / London - Ubuntu 16.04.6 x64 - This costs $5 a month with backup for an additional $1 a month
