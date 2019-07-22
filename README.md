@@ -67,17 +67,17 @@ https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-s
 
 ---
 
-1. Login with new www-user
-2.sudo apt update
-3.sudo apt install apache2
-4.sudo ufw app list
-5.sudo ufw allow ‘Apache’
-6.sudo ufw status
-7.sudo systemctl status apache2
-8.sudo mkdir -p /var/www/\*gps.domain.co.za/html
-9.sudo chown -R $USER:$USER /var/www/\*gps.domain.co.za/html
-10.Sudo chmod -R 755 /var/www/\*gps.domain.co.za
-11.nano /var/www/\*gps.domain.co.za/html/index.html
+1.Login with new www-user<br>
+2.sudo apt update<br>
+3.sudo apt install apache2<br>
+4.sudo ufw app list<br>
+5.sudo ufw allow ‘Apache’<br>
+6.sudo ufw status<br>
+7.sudo systemctl status apache2<br>
+8.sudo mkdir -p /var/www/\*gps.domain.co.za/html<br>
+9.sudo chown -R $USER:$USER /var/www/\*gps.domain.co.za/html<br>
+10.Sudo chmod -R 755 /var/www/\*gps.domain.co.za<br>
+11.nano /var/www/\*gps.domain.co.za/html/index.html<br>
 
 Add this content to the file as a placeholder and test
 
