@@ -17,9 +17,9 @@ The following walkthrough is based on the below requirements and we advise stick
 - PHP7.2 - Walkthrough Below
 - SQLite3 - Walkthrough Below
 - SSL Cert - Walkthrough Below
-- RouterOS device with a working GPS module - Walkthrough Above
-- RouterOS v6.40rc30 or above - Walkthrough Above
-- Set GPS format in RouterOS to dd - Walkthrough Above
+- RouterOS device with a working GPS module - Walkthrough Available Here - https://scoop.co.za/blog/post/vehicle-gps-tracking-with-mikrotik-s-ltap
+- RouterOS v6.40rc30 or above - Walkthrough Available Here - https://scoop.co.za/blog/post/vehicle-gps-tracking-with-mikrotik-s-ltap
+- Set GPS format in RouterOS to dd - Walkthrough Available Here - https://scoop.co.za/blog/post/vehicle-gps-tracking-with-mikrotik-s-ltap
 
 ---
 
