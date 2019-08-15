@@ -40,7 +40,7 @@ https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubunt
 
 ---
 
-1.adduser www-user
+1.adduser www-user<br/>
 2.usermod -aG sudo www-user
 
 ---
