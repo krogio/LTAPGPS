@@ -33,7 +33,11 @@ if (preg_match($regex,$data->lat) && preg_match($regex,$data->lon) )
 <!DOCTYPE html>
 <html>
   <head>
+	  
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <!--Leaflet Plugin-->
+	  
     <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
@@ -61,9 +65,6 @@ if (preg_match($regex,$data->lat) && preg_match($regex,$data->lon) )
     />
     <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 	  <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap.min.js"></script>
-
-    <!-- jQuery library -->
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     
     <!--Favicon-->
     <link rel="shortcut icon" href="favicon.ico" />
